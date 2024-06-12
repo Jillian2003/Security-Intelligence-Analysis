@@ -34,10 +34,7 @@ Ensure you have the following installed:
 1. Convert the PDF reports from Cisco Firepower and Umbrella to CSV using tabula-py:
    - Place the PDF files in the project directory.
    - Run the tabula-py commands to convert the PDFs to CSVs.
-     ```sh
-     tabula.convert_into("firepower_logs.pdf", "firepower_logs.csv", output_format="csv", pages="all")
-     tabula.convert_into("umbrella_logs.pdf", "umbrella_logs.csv", output_format="csv", pages="all")
-
+    
 2. Run the script:
 
     ```sh
