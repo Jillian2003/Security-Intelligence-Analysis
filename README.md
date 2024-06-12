@@ -45,13 +45,12 @@ Ensure you have the following installed:
    - It will also create a table of threats and their CVEs (threats_cve.csv).
 
 ## Dependencies
-pandas: Data manipulation and analysis library.
-tabula-py: Library for extracting tables from PDF files.
-requests: Library for making HTTP requests to fetch CVE data.
+   - pandas: Data manipulation and analysis library.
+   - tabula-py: Library for extracting tables from PDF files.
 
 You can install these dependencies using:
     ```sh
-    pip install pandas tabula-py requests
+    pip install pandas tabula-py 
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
