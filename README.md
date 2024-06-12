@@ -23,7 +23,7 @@ Ensure you have the following installed:
 ## Installation
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/Security-Intelligence-Analysis.git
+   git clone https://github.com/Jillian2003/Security-Intelligence-Analysis.git
    cd Security-Intelligence-Analysis
 2. **Install the required Python packages**:
    ```sh
