@@ -40,10 +40,6 @@ Ensure you have the following installed:
     ```sh
     python script.py
 
-3. View the output:
-   - The script will generate a cleaned CSV file (cleaned_data.csv).
-   - It will also create a table of threats and their CVEs (threats_cve.csv).
-
 ## Dependencies
    - pandas: Data manipulation and analysis library.
    - tabula-py: Library for extracting tables from PDF files.
