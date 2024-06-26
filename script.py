@@ -1,18 +1,18 @@
 '''
 Firepower:
-Lets pull the logs for Security Intelligence and Activity
+Pull Logs for Security Intelligence and Activity
  
 Umbrella:
 Pull Logs for Users Site access
 
-See if there is any correlation with security threats between two and if we can make a table of all the threats and it's CVE if there is any. 
+Observe correlation of Security threats between them and make a table of all the threats and their CVE's
 '''
 
 #-------------> Convert the pdf file into csv and load info of dataframes <---------------------
 import tabula
 import pandas as pd
 
-tabula.convert_into("Report_of_Security_Intelligence_Events__9_-20240601141655-13542.pdf", "output.csv", output_format="csv", pages='all')
+tabula.convert_into("firepower.pdf", "output.csv", output_format="csv", pages='all')
 
 firepower = pd.read_csv("output.csv")
 umbrella = pd.read_csv("Logs (UTC).csv")
